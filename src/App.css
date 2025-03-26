@@ -1,0 +1,8 @@
+.navBar {
+
+}
+
+.navBar li {
+    display: inline;
+    justify-content: space-evenly;
+}

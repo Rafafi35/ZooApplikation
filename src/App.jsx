@@ -4,6 +4,7 @@ import Layout from "./Layout.jsx";
 import Tickets from "./Tickets.jsx";
 import Map from "./Map.jsx";
 import Payment from "./Payment.jsx";
+import "./App.css"
 
 function App() {
 
