@@ -1,24 +1,15 @@
-import { Outlet, Link } from "react-router-dom";
+import {Outlet, Link} from "react-router-dom";
+import "./App.css"
 
 const Layout = () => {
     return (
         <>
-            <nav className="navBar">
-                <ul>
-                    <li>
-                        <Link to="Home">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="Tickets">Tickets</Link>
-                    </li>
-                    <li>
-                        <Link to="Map">Map</Link>
-                    </li>
-                    <li>
-                        <Link to="Payment">Payment</Link>
-                    </li>
-                </ul>
-            </nav>
+            <div className="navBar">
+                <a> <Link to="Home">Home</Link></a>
+                <a> <Link to="Tickets">Tickets</Link></a>
+                <a> <Link to="Map">Map</Link></a>
+                <a> <Link to="Payment">Payment</Link></a>
+            </div>
 
             <Outlet/>
         </>

@@ -1,8 +1,15 @@
 .navBar {
-
+    border: solid 3px black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.navBar li {
+.navBar a {
+    text-decoration: none;
     display: inline;
-    justify-content: space-evenly;
+    width: 15%;
+    background-color: gray;
+    text-align: center;
+    border: solid black 3px;
 }
