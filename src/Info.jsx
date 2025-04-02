@@ -1,3 +1,5 @@
+import Datenschutzbestimmungen from "./Datenschutzbestimmungen.jsx";
+import Impressum from "./Impressum.jsx";
 
 function Info() {
   return (
@@ -7,3 +9,4 @@ function Info() {
     </div>
   );
 }
+export default Info;

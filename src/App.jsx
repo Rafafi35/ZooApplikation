@@ -4,6 +4,7 @@ import Layout from "./Layout.jsx";
 import Tickets from "./Tickets.jsx";
 import Map from "./Map.jsx";
 import Payment from "./Payment.jsx";
+import Info from "./Info.jsx";
 import "./App.css"
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
               <Route path="Tickets" element={<Tickets/>}></Route>
               <Route path="Map" element={<Map/>}></Route>
               <Route path="Payment" element={<Payment/>}></Route>
+              <Route path="Info" element={<Info/>}></Route>
             </Route>
           </Routes>
         </BrowserRouter>
