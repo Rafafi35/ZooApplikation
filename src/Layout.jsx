@@ -5,11 +5,11 @@ const Layout = () => {
     return (
         <>
             <div className="navBar">
-                <a> <Link to="Home">Home</Link></a>
-                <a> <Link to="Tickets">Tickets</Link></a>
-                <a> <Link to="Map">Map</Link></a>
-                <a> <Link to="Payment">Payment</Link></a>
-                <a> <Link to="Info">Info</Link></a>
+                <Link to="Home">Home</Link>
+                <Link to="Tickets">Tickets</Link>
+                <Link to="Map">Map</Link>
+                <Link to="Payment">Payment</Link>
+                <Link to="Info">Info</Link>
             </div>
 
             <Outlet/>
