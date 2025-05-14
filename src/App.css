@@ -1,16 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    z-index: 0;
+}
+
 .navBar {
-    border: solid 3px black;
+    position: absolute;
+    height: 40px;
     width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 1;
 }
 
 .navBar a {
     text-decoration: none;
     display: inline;
-    width: 15%;
-    background-color: gray;
+    width: 20%;
+    height: 100%;
+    background-color: white;
     text-align: center;
-    border: solid black 3px;
+    border: solid 3px black;
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
 }
 
+.navBar a:first-child {
+    border-bottom-left-radius: 20px;
+}
+
+.navBar a:last-child {
+    border-bottom-right-radius: 20px;
+}
+
+.navBar a:hover {
+    background-color: #ed1c24;
+}
